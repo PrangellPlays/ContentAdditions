@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "sss",
+    "sns",
+    "nsn"
+  ],
+  "key": {
+    "": {
+      "item": "minecraft:polished_deepslate"
+    },
+    "s": {
+      "item": "minecraft:nether_star"
+    },
+    "n": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "contentsmpsummoner:summoner_of_the_airship"
+  }
+}
