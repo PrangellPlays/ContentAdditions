@@ -26,7 +26,7 @@ public class SummonerOfTheAirshipFunction extends Block {
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient) {
             world.setBlockState(this.getDefaultState(pos), Blocks.AIR.getDefaultState());
-            Entity customEntity = ((EntityType<Entity>) EntityType.get("minecraft:sheep").get()).create(world);
+            Entity customEntity = ((EntityType<Entity>) EntityType.get("expedition:airship").get()).create(world);
             customEntity.setPosition(0, 100, 0);
             world.spawnEntity(customEntity);
         }
