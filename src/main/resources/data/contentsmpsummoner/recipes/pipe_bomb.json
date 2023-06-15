@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ggg",
+    "gbg",
+    "ggg"
+  ],
+  "key": {
+    "g": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "blast:bomb"
+    }
+  },
+  "result": {
+    "item": "blast:pipe_bomb"
+  }
+}
