@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "sss",
-    "sns",
+    "ppp",
+    "pnp",
     "nsn"
   ],
   "key": {
