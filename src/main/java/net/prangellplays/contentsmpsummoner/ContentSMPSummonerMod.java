@@ -9,6 +9,8 @@ public class ContentSMPSummonerMod implements ModInitializer {
 	public static final String MOD_ID = "contentsmpsummoner";
 	public static final Logger LOGGER = LoggerFactory.getLogger("contentsmpsummoner");
 
+  public static final TagKey<Block> SCAFFOLDING = TagKey.of(Registries.BLOCK.getKey(), id("scaffolding"));
+	
 	@Override
 	public void onInitialize() {
 
