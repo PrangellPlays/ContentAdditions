@@ -15,6 +15,9 @@ import net.prangellplays.contentsmpsummoner.block.custom.SummonerOfTheAirshipFun
 public class ModBlocks {
     public static final Block SUMMONER_OF_THE_AIRSHIP = registerBlock("summoner_of_the_airship",
             new SummonerOfTheAirshipFunction(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
+    
+        public static final Block METAL_SCAFFOLDING = registerBlock("metal_scaffolding",
+            new metalscaffolding(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ItemGroup.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);
