@@ -1,6 +1,5 @@
-package net.prangellplays.contentsmpsummoner.block.custom;
+package net.prangellplays.contentsmpsummoner.block;
 
-import net.prangellplays.contentsmpsummoner.ContentSMPSummonerMod;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -25,8 +24,9 @@ import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
+import net.prangellplays.contentsmpsummoner.ContentSMPSummonerMod;
 
-public class metalscaffolding extends Block implements Waterloggable {
+public class MetalScaffoldingBlock extends Block implements Waterloggable {
     private static final VoxelShape COLLISION_SHAPE = Block.createCuboidShape(0.0, 0.0, 0.0, 16.0, 2.0, 16.0);
     private static final VoxelShape OUTLINE_SHAPE = VoxelShapes.fullCube().offset(0.0, -1.0, 0.0);
     private static final VoxelShape NORMAL_OUTLINE_SHAPE = VoxelShapes.union(
@@ -46,7 +46,7 @@ public class metalscaffolding extends Block implements Waterloggable {
     public static final BooleanProperty WATERLOGGED = Properties.WATERLOGGED;
     public static final BooleanProperty BOTTOM = Properties.BOTTOM;
 
-    public metalscaffolding(AbstractBlock.Settings settings) {
+    public MetalScaffoldingBlock(AbstractBlock.Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(DISTANCE, 24).with(WATERLOGGED, false).with(BOTTOM, false));
     }
@@ -85,17 +85,17 @@ public class metalscaffolding extends Block implements Waterloggable {
     @Override
     public void onBlockAdded(BlockState state, World world, BlockPos pos, BlockState oldState, boolean notify) {
         if (!world.isClient) {
-            world.scheduleBlockTick(pos, this, 1);
+            world.createAndScheduleBlockTick(pos, this, 1);
         }
     }
 
     @Override
     public BlockState getStateForNeighborUpdate(BlockState state, Direction direction, BlockState neighborState, WorldAccess world, BlockPos pos, BlockPos neighborPos) {
         if (state.get(WATERLOGGED)) {
-            world.scheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
+            world.createAndScheduleFluidTick(pos, Fluids.WATER, Fluids.WATER.getTickRate(world));
         }
         if (!world.isClient()) {
-            world.scheduleBlockTick(pos, this, 1);
+            world.createAndScheduleBlockTick(pos, this, 1);
         }
         return state;
     }

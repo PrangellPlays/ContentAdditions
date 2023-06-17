@@ -4,6 +4,7 @@
   "package": "net.prangellplays.contentsmpsummoner.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ContentSMPSummonerMixin"
   ],
   "injectors": {
     "defaultRequire": 1

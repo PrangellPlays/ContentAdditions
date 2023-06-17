@@ -1,4 +1,4 @@
-package net.prangellplays.contentsmpsummoner.block.custom;
+package net.prangellplays.contentsmpsummoner.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -6,17 +6,15 @@ import net.minecraft.block.Blocks;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.server.command.SetBlockCommand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Position;
 import net.minecraft.world.World;
 
-public class SummonerOfTheAirshipFunction extends Block {
+public class SummonerOfTheAirshipBlock extends Block {
 
-    public SummonerOfTheAirshipFunction(Settings settings) {
+    public SummonerOfTheAirshipBlock(Settings settings) {
         super(settings);
     }
 
