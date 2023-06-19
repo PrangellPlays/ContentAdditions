@@ -1,2 +1,2 @@
-# ContentSMPSummoner
-This mod is an addon to @doctor4t Expedition mod adding the airship this allows me to spawn the airship in survival. While also adding different recipes for mods and some custome blocks/ items of its own.
+# Content Additions
+Content Additions to add different items and blocks such as The Summoner Of The Airship to spawn the Airship from the expedition mod made by @doctor4t

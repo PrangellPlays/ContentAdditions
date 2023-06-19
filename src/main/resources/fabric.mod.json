@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "contentsmpsummoner",
+  "id": "contentadditions",
   "version": "0.0.1",
 
-  "name": "ContentSMPSummoner",
-  "description": "ContentSMPSummoner to spawn entities such as the expedition Airship",
+  "name": "Content Additions",
+  "description": "Content Additions to add different items and blocks such as The Summoner Of The Airship to spawn the Airship from the expedition mod made by @doctor4t",
   "authors": [
     "PrangellPlays"
   ],
@@ -15,14 +15,14 @@
   "environment": "*",
   "entrypoints": {
     "client": [
-      "net.prangellplays.contentsmpsummoner.ContentSMPSummonerModClient"
+      "net.prangellplays.contentadditions.ContentAdditionsClient"
     ],
     "main": [
-      "net.prangellplays.contentsmpsummoner.ContentSMPSummonerMod"
+      "net.prangellplays.contentadditions.ContentAdditions"
     ]
   },
   "mixins": [
-    "contentsmpsummoner.mixins.json"
+    "contentadditions.mixins.json"
   ],
 
   "depends": {

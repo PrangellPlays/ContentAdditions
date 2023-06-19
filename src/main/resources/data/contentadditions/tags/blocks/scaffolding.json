@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:scaffolding",
     "contentadditions:metal_scaffolding"
   ]
 }

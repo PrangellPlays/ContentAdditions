@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "contentsmpsummoner:metal_scaffolding",
-    "contentsmpsummoner:summoner_of_the_airship"
+    "contentadditions:metal_scaffolding",
+    "contentadditions:summoner_of_the_airship"
   ]
 }

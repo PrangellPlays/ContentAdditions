@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "contentadditions:block/summoner_of_the_airship"
+  }
+}

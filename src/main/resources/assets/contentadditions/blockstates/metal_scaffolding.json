@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bottom=false": {
+      "model": "contentadditions:block/metal_scaffolding_stable"
+    },
+    "bottom=true": {
+      "model": "contentadditions:block/metal_scaffolding_unstable"
+    }
+  }
+}
