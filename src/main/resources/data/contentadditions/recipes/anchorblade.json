@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "KLH",
+    "BCK"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:copper_block"
+    },
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "L": {
+      "item": "minecraft:lightning_rod"
+    },
+    "H": {
+      "item": "minecraft:horn_coral_fan"
+    },
+    "B": {
+      "item": "minecraft:bubble_coral"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    }
+  },
+  "result": {
+    "item": "arsenal:anchorblade",
+    "count": 1
+  }
+}
