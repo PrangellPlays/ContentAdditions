@@ -1,6 +1,17 @@
 {
-  "itemGroup.contentadditions.contentadditions_group" : "ContentAdditions",
+  "itemGroup.contentadditions.contentadditions_group" : "Content Additions",
 
   "block.contentadditions.summoner_of_the_airship": "Summoner Of The Airship",
-  "block.contentadditions.metal_scaffolding": "Metal Scaffolding"
+  "block.contentadditions.metal_scaffolding": "Metal Scaffolding",
+  "block.contentadditions.tuff_stairs": "Tuff Stairs",
+  "block.contentadditions.tuff_slab": "Tuff Slab",
+  "block.contentadditions.tuff_wall": "Tuff Wall",
+  "block.contentadditions.polished_tuff": "Polished Tuff",
+  "block.contentadditions.polished_tuff_stairs": "Polished Tuff Stairs",
+  "block.contentadditions.polished_tuff_slab": "Polished Tuff Slab",
+  "block.contentadditions.polished_tuff_wall": "Polished Tuff Wall",
+  "block.contentadditions.tuff_bricks": "Tuff Bricks",
+  "block.contentadditions.tuff_brick_stairs": "Tuff Brick Stairs",
+  "block.contentadditions.tuff_brick_slab": "Tuff Brick Slab",
+  "block.contentadditions.tuff_brick_wall": "Tuff Brick Wall"
 }

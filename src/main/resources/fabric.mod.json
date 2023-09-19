@@ -10,7 +10,7 @@
   ],
 
   "license": "PlasmythicStudios",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/contentadditions/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {

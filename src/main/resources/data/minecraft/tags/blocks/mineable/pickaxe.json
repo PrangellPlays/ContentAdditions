@@ -2,6 +2,14 @@
   "replace": false,
   "values": [
     "contentadditions:metal_scaffolding",
-    "contentadditions:summoner_of_the_airship"
+    "contentadditions:summoner_of_the_airship",
+    "contentadditions:tuff_stairs",
+    "contentadditions:tuff_slab",
+    "contentadditions:polished_tuff",
+    "contentadditions:polished_tuff_stairs",
+    "contentadditions:polished_tuff_slab",
+    "contentadditions:tuff_bricks",
+    "contentadditions:tuff_brick_stairs",
+    "contentadditions:tuff_brick_slab"
   ]
 }
