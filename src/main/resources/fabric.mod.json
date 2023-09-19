@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "contentadditions",
-  "version": "0.0.1",
+  "version": "0.0.3",
 
   "name": "Content Additions",
   "description": "Content Additions to add different items and blocks such as The Summoner Of The Airship to spawn the Airship from the expedition mod made by @doctor4t",
@@ -9,7 +9,7 @@
     "PrangellPlays"
   ],
 
-  "license": "MIT",
+  "license": "PlasmythicStudios",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",

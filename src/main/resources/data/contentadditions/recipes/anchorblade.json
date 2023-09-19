@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "CCC",
+    "OOO",
     "KLH",
     "BCK"
   ],
   "key": {
-    "C": {
+    "O": {
       "item": "minecraft:copper_block"
     },
     "K": {
