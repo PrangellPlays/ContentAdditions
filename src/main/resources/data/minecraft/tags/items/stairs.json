@@ -3,6 +3,22 @@
   "values": [
     "contentadditions:tuff_stairs",
     "contentadditions:polished_tuff_stairs",
-    "contentadditions:tuff_brick_stairs"
+    "contentadditions:tuff_brick_stairs",
+    "contentadditions:black_wool_stairs",
+    "contentadditions:blue_wool_stairs",
+    "contentadditions:brown_wool_stairs",
+    "contentadditions:cyan_wool_stairs",
+    "contentadditions:gray_wool_stairs",
+    "contentadditions:green_wool_stairs",
+    "contentadditions:light_blue_wool_stairs",
+    "contentadditions:light_gray_wool_stairs",
+    "contentadditions:lime_wool_stairs",
+    "contentadditions:magenta_wool_stairs",
+    "contentadditions:orange_wool_stairs",
+    "contentadditions:pink_wool_stairs",
+    "contentadditions:purple_wool_stairs",
+    "contentadditions:red_wool_stairs",
+    "contentadditions:white_wool_stairs",
+    "contentadditions:yellow_wool_stairs"
   ]
 }

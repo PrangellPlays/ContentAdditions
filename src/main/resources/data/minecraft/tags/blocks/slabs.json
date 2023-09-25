@@ -3,6 +3,22 @@
   "values": [
     "contentadditions:tuff_slab",
     "contentadditions:polished_tuff_slab",
-    "contentadditions:tuff_brick_slab"
+    "contentadditions:tuff_brick_slab",
+    "contentadditions:black_wool_slab",
+    "contentadditions:blue_wool_slab",
+    "contentadditions:brown_wool_slab",
+    "contentadditions:cyan_wool_slab",
+    "contentadditions:gray_wool_slab",
+    "contentadditions:green_wool_slab",
+    "contentadditions:light_blue_wool_slab",
+    "contentadditions:light_gray_wool_slab",
+    "contentadditions:lime_wool_slab",
+    "contentadditions:magenta_wool_slab",
+    "contentadditions:orange_wool_slab",
+    "contentadditions:pink_wool_slab",
+    "contentadditions:purple_wool_slab",
+    "contentadditions:red_wool_slab",
+    "contentadditions:white_wool_slab",
+    "contentadditions:yellow_wool_slab"
   ]
 }

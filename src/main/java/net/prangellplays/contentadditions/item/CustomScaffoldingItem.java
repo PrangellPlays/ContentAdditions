@@ -1,6 +1,5 @@
 package net.prangellplays.contentadditions.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.ScaffoldingBlock;
@@ -16,9 +15,10 @@ import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
 public class CustomScaffoldingItem extends BlockItem {
+    private static final Settings settings = new Settings();
     private final int size;
 
-    public CustomScaffoldingItem(int size, Block block, FabricItemSettings settings) {
+    public CustomScaffoldingItem(int size, Block block) {
         super(block, settings);
         this.size = size;
     }

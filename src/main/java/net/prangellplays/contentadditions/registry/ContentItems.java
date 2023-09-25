@@ -1,5 +1,7 @@
 package net.prangellplays.contentadditions.registry;
 
+import net.minecraft.block.BlockState;
+import net.minecraft.item.ItemStack;
 import net.prangellplays.contentadditions.ContentAdditions;
 import net.minecraft.item.Item;
 import net.minecraft.util.registry.Registry;
@@ -17,5 +19,4 @@ public class ContentItems {
         list.add(item);
         return item;
     }
-
 }
