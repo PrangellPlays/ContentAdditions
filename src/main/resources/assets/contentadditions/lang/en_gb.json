@@ -1,6 +1,8 @@
 {
   "itemGroup.contentadditions.contentadditions_group" : "Content Additions",
 
+  "item.contentadditions.icon": "Icon",
+
   "block.contentadditions.summoner_of_the_airship": "Summoner Of The Airship",
 
   "block.contentadditions.metal_scaffolding": "Metal Scaffolding",
